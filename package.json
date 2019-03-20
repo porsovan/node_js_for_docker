@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/porsovan/node_js_for_docker/issues"
   },
-  "homepage": "https://github.com/porsovan/node_js_for_docker#readme"
+  "homepage": "https://github.com/porsovan/node_js_for_docker#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
