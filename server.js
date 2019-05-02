@@ -39,27 +39,6 @@ router.post("/notification/otp" ,jsonParser , function(req,res){
   console.log(req.body);
   res.send(req.body);
   
-
-  // var xx = {
-  //   "access_token": "8064fec7-0584-4f02-b28b-95931fd99d44",
-  //   "access_token_expires_in": 3600,
-  //   "expires_in": 3600,
-  //   "token_type": "Bearer",
-  //   "refresh_token": "6a835d33-146e-4c1b-b327-9b9e84f5f76d",
-  //   "refresh_token_expires_in": 3600,
-  //   "correlation_id": "system-user-5",
-  //   "credential_expired_timestamp": "2019-04-10T09:02:25Z"
-  // }
-  // // console.log(req.body.get('access_token'));
-  // if (req.get('Content-Type')) {
-  //   console.log("Content-Type: " + req.get('Content-Type'));
-   
-  // }
-  
-  
-  // res.setHeader('Content-Type', 'application/json');
-  // res.end(JSON.stringify(xx));
-
 });
 
 // App
