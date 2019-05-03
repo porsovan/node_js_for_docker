@@ -37,7 +37,11 @@ router.get("/login", function(req,res){
 
 router.post("/notification/otp" ,jsonParser , function(req,res){
   console.log(req.body);
-  res.send(req.body);
+
+  console.log(req.body.data.additional_references);
+
+  // res.send(req.body);
+  res.send(req.body.data.additional_references);
   
 });
 
